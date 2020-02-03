@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LogicaAPP</string>
+    <string name="correctNumber">The correct number of answers is %d</string>
+    <string name="title">Conjunction (AND)</string>
+<string name="A">A</string>
+    <string name="B">B</string>
+    <string name="T">T</string>
+    <string name="F">F</string>
+    <string name="AB"> A ^ B </string>
+    <string name="check"> Submit </string>
+</resources>
