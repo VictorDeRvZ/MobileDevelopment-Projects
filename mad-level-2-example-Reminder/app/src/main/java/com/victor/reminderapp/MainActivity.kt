@@ -62,6 +62,7 @@ class MainActivity : AppCompatActivity() {
                 DividerItemDecoration.VERTICAL
             )
         )
+        createItemTouchHelper().attachToRecyclerView(rvReminders)
 
     }
 
@@ -81,4 +82,36 @@ class MainActivity : AppCompatActivity() {
             else -> super.onOptionsItemSelected(item)
         }
     }
+
+
+    /**
+     * Create a touch helper to recognize when a user swipes an item from a recycler view.
+     * An ItemTouchHelper enables touch behavior (like swipe and move) on each ViewHolder,
+     * and uses callbacks to signal when a user is performing these actions.
+     */
+    private fun createItemTouchHelper(): ItemTouchHelper {
+
+        // Callback which is used to create the ItemTouch helper. Only enables left swipe.
+        // Use ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT or ItemTouchHelper.RIGHT) to also enable right swipe.
+        val callback = object : ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT) {
+
+            // Enables or Disables the ability to move items up and down.
+            override fun onMove(
+                recyclerView: RecyclerView,
+                viewHolder: RecyclerView.ViewHolder,
+                target: RecyclerView.ViewHolder
+            ): Boolean {
+                return false
+            }
+
+            // Callback triggered when a user swiped an item.
+            override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
+                val position = viewHolder.adapterPosition
+                reminders.removeAt(position)
+                reminderAdapter.notifyDataSetChanged()
+            }
+        }
+        return ItemTouchHelper(callback)
+    }
+
 }
