@@ -75,6 +75,4 @@ data class Place(
             R.drawable.alaska_denali
         )
     }
-
-
 }
