@@ -5,6 +5,8 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_create_profile.*
+import kotlinx.android.synthetic.main.activity_profile.*
 import android.provider.ContactsContract
 import kotlinx.android.synthetic.main.activity_create_profile.*
 
@@ -30,18 +32,18 @@ class CreateProfileActivity : AppCompatActivity() {
     }
 
 
-        private fun onConfirmClick() {
-            val profile = Profile(
-                etFirstName.text.toString(),
-                etLastName.text.toString(),
-                etDescription.text.toString(),
-                profileImageUri
-            )
+    private fun onConfirmClick() {
+        val profile = profile(
+            etFirstName.text.toString(),
+            etLastName.text.toString(),
+            etDescription.text.toString(),
+            profileImageUri
+        )
 
-            val profileActivityIntent = Intent(this, ProfileActivity::class.java)
-            profileActivityIntent.putExtra(ProfileActivity.PROFILE_EXTRA, profile)
-            startActivity(profileActivityIntent)
-        }
+        val profileActivityIntent = Intent(this, ProfileActivity::class.java)
+        profileActivityIntent.putExtra(ProfileActivity.PROFILE_EXTRA, profile)
+        startActivity(profileActivityIntent)
+    }
 
 
     private fun onGalleryClick() {

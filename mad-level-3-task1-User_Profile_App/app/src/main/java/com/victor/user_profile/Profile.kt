@@ -5,9 +5,11 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class Profile(
-    val firstName: String,
-    val lastName: String,
-    val description: String,
-    val imageUri: Uri?
-) : Parcelable
+
+
+data class profile( val firstName: String,
+                    val lastName: String,
+                    val description: String,
+                    val imageUri: Uri?) : Parcelable {
+
+}

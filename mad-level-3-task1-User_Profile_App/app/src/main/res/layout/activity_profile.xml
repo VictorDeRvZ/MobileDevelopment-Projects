@@ -10,17 +10,17 @@
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/tvDescriptionTitle"
+        app:layout_constraintBottom_toTopOf="@+id/tvName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/tvDescriptionTitle"
+        android:id="@+id/tvName"
         android:layout_width="118dp"
         android:layout_height="34dp"
-        android:text="@string/description"
+        android:text="@string/name"
         android:textSize="18dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,6 +38,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.154"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvDescriptionTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
         app:layout_constraintVertical_bias="0.101" />
 </androidx.constraintlayout.widget.ConstraintLayout>
