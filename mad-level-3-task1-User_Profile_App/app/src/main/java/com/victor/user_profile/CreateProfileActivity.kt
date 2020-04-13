@@ -34,7 +34,7 @@ class CreateProfileActivity : AppCompatActivity() {
             val profile = Profile(
                 etFirstName.text.toString(),
                 etLastName.text.toString(),
-                etProfileDescription.text.toString(),
+                etDescription.text.toString(),
                 profileImageUri
             )
 
