@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/SplashScreenTheme">
         <activity android:name=".CreateProfileActivity"></activity>
-        <activity android:name=".SplashActivity">
+        <activity android:name=".SplashActivity"         android:theme="@style/SplashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
