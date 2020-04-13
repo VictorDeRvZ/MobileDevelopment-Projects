@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">User_Profile</string>
+    <string name="app_name">User Profile</string>
+    <string name="splash_title">User Profile App</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="description">Description</string>
+    <string name="confirm">Confirm</string>
+    <string name="open_picture_gallery">Open Picture Gallery</string>
+    <string name="name">%1$s %2$s</string>
 </resources>
