@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7167b39d-4e82-4e8c-bbda-62db133a86d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/java/com/victor/shoppinglist/ProductAdapter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/java/com/victor/shoppinglist/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/java/com/victor/shoppinglist/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/java/com/victor/shoppinglist/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/java/com/victor/shoppinglist/Product.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/menu/menu_main.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +52,7 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mad-level-4-task2-Rocker_Paper_Scissors" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
