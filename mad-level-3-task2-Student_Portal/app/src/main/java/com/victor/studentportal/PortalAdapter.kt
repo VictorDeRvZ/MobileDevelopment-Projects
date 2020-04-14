@@ -7,9 +7,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_portal.view.*
 
-
-public class  PlaceAdapter(private val places: List<Portal>) :
-    RecyclerView.Adapter<PlaceAdapter.ViewHolder>() {
+class PortalAdapter(private val places: List<Portal>,  val clickListener: (Portal) -> Unit) :
+    RecyclerView.Adapter<PortalAdapter.ViewHolder>() {
 
     lateinit var context: Context
 
@@ -29,8 +28,9 @@ public class  PlaceAdapter(private val places: List<Portal>) :
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(portal: Portal) {
-
-            itemView.btnPortal.text = portal.name
+            itemView.tvTitle.text = portal.name
+            itemView.tvUrl.text =  portal.link.toString()
+            itemView.setOnClickListener{clickListener(portal)}
         }
     }
 }
