@@ -1,11 +1,12 @@
 package com.victor.reminderapp
 
 import ReminderDao
+
+
+
 import android.content.Context
 
-
 public class ReminderRepository(context: Context) {
-
     private var reminderDao: ReminderDao
 
     init {
@@ -13,21 +14,19 @@ public class ReminderRepository(context: Context) {
         reminderDao = reminderRoomDatabase!!.reminderDao()
     }
 
-    fun getAllReminders(): List<Reminder> {
+    suspend fun getAllReminders(): List<Reminder> {
         return reminderDao.getAllReminders()
     }
 
-    fun insertReminder(reminder: Reminder) {
-        reminderDao.insertReminder(reminder)
+    suspend fun insertReminder(reminder: Reminder) {
+        return reminderDao.insertReminder(reminder)
     }
 
-    fun deleteReminder(reminder: Reminder) {
-        reminderDao.deleteReminder(reminder)
+    suspend fun deleteReminder(reminder: Reminder) {
+        return reminderDao.deleteReminder(reminder)
     }
 
-    fun updateReminder(reminder: Reminder) {
-        reminderDao.updateReminder(reminder)
+    suspend fun updateReminder(reminder: Reminder) {
+        return reminderDao.updateReminder(reminder)
     }
-
 }
-

@@ -1,20 +1,22 @@
 import androidx.room.*
 import com.victor.reminderapp.Reminder
+import androidx.room.*
 
 @Dao
 interface ReminderDao {
-
-    @Query("SELECT * FROM reminderTable")
-    fun getAllReminders(): List<Reminder>
+///
+    //By adding the suspend keyword to the method we have specified that this  method cannot be called without using Coroutines. @Query("SELECT * FROM reminderTable")
+    suspend fun getAllReminders(): List<Reminder>
 
     @Insert
-    fun insertReminder(reminder: Reminder)
+    suspend fun insertReminder(reminder: Reminder)
 
     @Delete
-    fun deleteReminder(reminder: Reminder)
+    suspend fun deleteReminder(reminder: Reminder)
 
     @Update
-    fun updateReminder(reminder: Reminder)
+    suspend fun updateReminder(reminder: Reminder)
+
 
 }
 
