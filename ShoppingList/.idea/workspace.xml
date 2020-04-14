@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7167b39d-4e82-4e8c-bbda-62db133a86d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/java/com/victor/shoppinglist/ProductDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/java/com/victor/shoppinglist/ShoppingListRoomDatabase.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
