@@ -1,5 +1,6 @@
 package com.victor.shoppinglist
 
+
 import android.os.Parcelable
 import androidx.room.ColumnInfo
 import androidx.room.Entity
@@ -10,13 +11,14 @@ import kotlinx.android.parcel.Parcelize
 @Entity(tableName = "product_table")
 data class Product(
 
-@PrimaryKey(autoGenerate = true)
-@ColumnInfo(name = "name")
-var name : String,
+    @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name = "id")
+    var id: Long? = null,
 
+    @ColumnInfo(name = "name")
+    var name: String,
 
-@ColumnInfo(name = "quantity")
-var quantity: Int
-
+    @ColumnInfo(name = "quantity")
+    var quantity: Int
 
 ) : Parcelable
