@@ -23,12 +23,13 @@ class MainActivity : AppCompatActivity() {
 
     private val reminders = arrayListOf<Reminder>()
     private val reminderAdapter = ReminderAdapter(reminders)
+    private lateinit var reminderRepository: ReminderRepository
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
-
+        reminderRepository = ReminderRepository(this)
         reminders.add(Reminder("Do Homework"))
         reminders.add(Reminder("Answer Questions"))
 
@@ -72,7 +73,16 @@ class MainActivity : AppCompatActivity() {
             )
         )
         createItemTouchHelper().attachToRecyclerView(rvReminders)
+        getRemindersFromDatabase()
 
+
+    }
+
+    private fun getRemindersFromDatabase() {
+        val reminders = reminderRepository.getAllReminders()
+        this@MainActivity.reminders.clear()
+        this@MainActivity.reminders.addAll(reminders)
+        reminderAdapter.notifyDataSetChanged()
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
