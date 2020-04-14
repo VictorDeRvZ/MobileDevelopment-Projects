@@ -2,49 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7167b39d-4e82-4e8c-bbda-62db133a86d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/androidTest/java/com/victor/shoppinglist/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/java/com/victor/shoppinglist/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/menu/menu_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/test/java/com/victor/shoppinglist/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/layout/item_product.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mad-level-4-task1-Shopping_List/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -250,6 +209,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3513" y="191" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32932165" />
       <window_info id="Structure" side_tool="true" />
