@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-@Entity(tableName = "productTable")
+@Entity(tableName = "product_table")
 data class Product(
 
 @PrimaryKey(autoGenerate = true)
